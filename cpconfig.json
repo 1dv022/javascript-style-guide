@@ -1,0 +1,27 @@
+{
+  "organization": "1dv022",
+  "repos" : [
+
+    {
+      "name": "examination1",
+      "nameFormat": "examination-1-{username}",
+      "check": {
+        "jshint": {
+          "ignore": ["app/build", "app/dist"]
+        },
+        "required": ["app.js", "README.md"]
+      }
+    },
+
+    {
+      "name": "examination3",
+      "nameFormat": "{username}-2015-ex",
+      "check": {
+
+        "jshint": {
+          "ignore": ["build", "dist"]
+        }
+      }
+    }
+  ]
+}
